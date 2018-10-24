@@ -97,7 +97,7 @@ nav>ul>li>a, nav>ul>li>div>a    {
 
 
 .menuSep{
-    background-image: url("../images/menu_sep.png");
+    background-image: url("images/menu_sep.png");
     width: 4px;
     height: 21px;
     margin: 0 16px;
@@ -129,7 +129,7 @@ nav>ul>li>a, nav>ul>li>div>a    {
 }
 
 .divTop1_1{
-    background-image: url("../images/hp_tab_text_bg.png");
+    background-image: url("images/hp_tab_text_bg.png");
     position: absolute;
     bottom: 5px;
     right: 7px;
@@ -167,7 +167,7 @@ p{
 
 .divBottom1
 {
-    background-image: url("../images/small_cube_bg.png");
+    background-image: url("images/small_cube_bg.png");
     width: 292px;
     height: 217px;
     float: right;
