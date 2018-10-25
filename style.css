@@ -227,3 +227,23 @@ h2{
     right: 20px;
     font-size: 13px;
 }
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 39px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(144,144,144) 80%,rgb(170,170,170));
+}
+
+.footerLink{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerSep{
+    /* padding: 10px; */
+    /* bottom: 10px; */
+}
