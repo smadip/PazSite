@@ -17,8 +17,8 @@ body {
 
 .container{
     width: 900px;
-    margin: 0 auto;
-    padding-bottom: 30px;
+    margin: 10px auto;
+    /* padding-bottom: 30px; */
     background: #fff;
     
 }
@@ -107,11 +107,11 @@ nav>ul>li>a, nav>ul>li>div>a    {
 
 .divTop1{
     float: right;
-    margin-top: 75px;
+    margin-top: 10px;
     margin-left:12px; 
     margin-right: 0;
     width: 288px;
-    height: 352px;
+    /* height: 352px; */
     background-color: black;
     border-bottom-right-radius: 25px;
     position: relative;
@@ -161,7 +161,7 @@ p{
     font-size: 13px;
 }
 
-.aReadMore:hover, .aReadMore2:hover  {
+.aReadMore:hover, .aReadMore2:hover , .footerLink:hover, .footerLinkRed:hover{
     color:#005CA0;
 }
 
@@ -238,12 +238,42 @@ footer{
     background-image: linear-gradient(rgb(144,144,144) 80%,rgb(170,170,170));
 }
 
-.footerLink{
+.footerLink, .footerLinkRed{
     color: #fff;
     font-size: 14px;
+    /* margin: 0px 2px 0px 2px; */
+    text-decoration: none;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+    height: 60%;
+
+
 }
 
+.divLink{
+    padding-right: 25px;
+}
+.footerLinkRed{color: red;}
+
+.divFooter{
+    position: relative;
+    top: 15px;
+    right: 320px;
+}
+
+.divFb{
+    position: absolute;
+    /* margin-left: 5px; */
+    /* right: 5px; */
+    /* left: 5px; */
+}
+
+/* .divFb{margin-right: 1px; display: inline;} */
+
 .footerSep{
+    margin-top: 10px;
+    padding: 0;
+    display: inline;
     /* padding: 10px; */
     /* bottom: 10px; */
 }
