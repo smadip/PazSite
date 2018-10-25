@@ -161,8 +161,8 @@ p{
     font-size: 13px;
 }
 
-.aReadMore:hover {
-    color: blue;
+.aReadMore:hover, .aReadMore2:hover  {
+    color:#005CA0;
 }
 
 .divBottom1
@@ -174,7 +174,19 @@ p{
     margin-top: 21px;
     margin-left:8px; 
     margin-right: 0;
-    
+    position: relative;    
+}
+
+.divMoreDetails{
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    font-size: 13px;
+}
+
+.aReadMore2{
+    color: #72716d;
+    font-size: 13px;
 }
 
 h2{
@@ -190,7 +202,28 @@ h2{
     padding-right: 21px;
 }
 
-.aMoreDetails
-{
-    
+.imgMap{
+    padding-right: 200px;
+    padding-top: 10px;
+}
+
+.divStations1{
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    font-size: 13px;
+}
+
+.divStations2{
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    font-size: 13px;
+}
+
+.divStations3{
+    position: absolute;
+    top: 95px;
+    right: 20px;
+    font-size: 13px;
 }
