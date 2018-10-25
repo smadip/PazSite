@@ -33,6 +33,27 @@ body {
     top: 35%;
     left: 95%;
 }
+
+.divInput{
+    position: absolute;
+    padding-right: 700px;
+    padding-top: 20px;    
+}
+
+.input{
+    height: 19px;
+    width: 134px;
+    float: right;
+}
+
+.searchBtn{
+    background-image: url("images/search_button.png");
+    height: 19px;
+    width: 19px;
+    float: right;
+}
+
+
 nav{
     height: 104px;
         }
@@ -112,7 +133,7 @@ nav>ul>li>a, nav>ul>li>div>a    {
     margin-right: 0;
     width: 288px;
     /* height: 352px; */
-    background-color: black;
+    /* background-color: black; */
     border-bottom-right-radius: 25px;
     position: relative;
 }
@@ -135,12 +156,15 @@ nav>ul>li>a, nav>ul>li>div>a    {
     right: 7px;
     width: 244px;
     height: 98px;
+    border-bottom-right-radius: 25px;
+
 }
 h3 {
     font-size: 14px;
     font-weight: bold;
     color:#fff;
     margin-bottom: 0;
+    padding-right: 5px;
 }
 
 p{
@@ -148,6 +172,7 @@ p{
     padding-top: 0;
     font-size: 13px;
     margin-top: 4px;    
+    padding-right: 5px;
 }
 
 .divContinue{
