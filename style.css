@@ -36,14 +36,26 @@ body {
 
 .divInput{
     position: absolute;
-    padding-right: 700px;
+    padding-right: 690px;
     padding-top: 20px;    
+}
+
+.aEng{
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+    padding-left: 10px;
+    padding-top: 5px;;
+    text-decoration: none;
 }
 
 .input{
     height: 19px;
     width: 134px;
     float: right;
+    border-top-right-radius: 10px;
+    text-decoration: none;
 }
 
 .searchBtn{
