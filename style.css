@@ -50,6 +50,11 @@ body {
     text-decoration: none;
 }
 
+a.aEng:hover{
+    text-decoration:underline;
+    color:#005CA0 !important
+}
+
 .input{
     height: 19px;
     width: 134px;
