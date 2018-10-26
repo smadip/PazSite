@@ -1,5 +1,5 @@
 function onLoadFunction(){
-    setInterval( ChangeImageSrc, 3000);
+    setInterval( ChangeImageSrc, 5000);
 }
 
 function ChangeImageSrc(){
