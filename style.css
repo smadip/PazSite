@@ -79,9 +79,13 @@ nav>ul{
     list-style: none;
     padding: 0;
     position: relative;
-    height: 33px;
-    top: 50px;
+    height: 60px;
+    top: 70px;
     margin: 0 80px 0 0;
+}
+
+.menuTitle{
+    height: 40px;
 }
 
 nav>ul>li{
@@ -96,10 +100,17 @@ nav>ul>li>a, nav>ul>li>div>a    {
     color:#fff;
     height: 100%;
 }
+nav>ul>li>a:hover , nav>ul>li>div>a:hover{
+
+    text-decoration: underline;
+    color:#005CA0;
+
+}
 .subMenu{
+    z-index:1;
     position: absolute;
     display: none;
-    padding-top: 20px;
+    /* padding-top: 5px; */
     /* margin-top: 5px; */
     top:33px;  
     text-decoration: none;
@@ -107,7 +118,7 @@ nav>ul>li>a, nav>ul>li>div>a    {
     font-weight: bold;
     width: 100px;
     color:#fff;
-    background-image: linear-gradient(rgb(144,144,144) 80%,rgb(170,170,170));   
+    background-image: linear-gradient(rgb(160,160,160) 10% , rgb(144,144,144));   
 }
 
 .dropdownSep{
@@ -205,6 +216,7 @@ p{
 
 .aReadMore:hover, .aReadMore2:hover , .footerLink:hover, .footerLinkRed:hover{
     color:#005CA0;
+    text-decoration: underline;
 }
 
 .divBottom1
