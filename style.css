@@ -70,6 +70,10 @@ a.aEng:hover{
     float: right;
 }
 
+.homeIcon{
+    padding-right:10px;
+    
+}
 
 nav{
     height: 104px;

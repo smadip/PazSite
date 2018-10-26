@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>פז-עמוד הבית</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="onLoadFunction()">
     <div class="containerHeader">
         
         <div class="container">
@@ -24,7 +25,7 @@
                         </div>
                     <ul>
                         <a href="">
-                            <img src="images/menu_home2.png" alt="">
+                            <img class="homeIcon" src="images/menu_home.png" alt="">
                         </a>
                         <li class="menuSep"></li>
                         <li class="liMenu">
@@ -168,7 +169,7 @@
                 </div>
                 <div class="divBottom1">
                     <h2>yellow click&pick;</h2>
-                    <img class="imgBottom" src="images/paz_250x110103131473.jpg" alt="">
+                    <img class="imgBottom" id="imgChange" src="images/paz_250x110103131473.jpg" alt="">
                     <div class="divMoreDetails">
                         <a href="#" class="aReadMore2">לפרטים נוספים </a>
                         <img src="images/read_more_yellow.png" alt="">
