@@ -30,8 +30,8 @@ body {
 
 .pazLogo{
     position: absolute;
-    top: 35%;
-    left: 95%;
+    top: 35px;
+    right: 0;
 }
 
 .divInput{
@@ -81,11 +81,13 @@ nav>ul{
     position: relative;
     height: 60px;
     top: 70px;
+    right: 60px;
     margin: 0 80px 0 0;
 }
 
 .menuTitle{
     height: 40px;
+
 }
 
 nav>ul>li{
@@ -100,11 +102,21 @@ nav>ul>li>a, nav>ul>li>div>a    {
     color:#fff;
     height: 100%;
 }
+
+nav>ul>li>div>a
+{
+    border-bottom: 1px solid rgb(170,170,170);
+    padding-bottom: 10px;
+    width: 100%;
+}
 nav>ul>li>a:hover , nav>ul>li>div>a:hover{
 
     text-decoration: underline;
     color:#005CA0;
+}
 
+nav>ul>li>div>a:hover{
+    background-color: rgb(170,170,170);
 }
 .subMenu{
     z-index:1;
@@ -112,11 +124,11 @@ nav>ul>li>a:hover , nav>ul>li>div>a:hover{
     display: none;
     /* padding-top: 5px; */
     /* margin-top: 5px; */
-    top:33px;  
+    top:26px;  
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    width: 100px;
+    width: 150px;
     color:#fff;
     background-image: linear-gradient(rgb(160,160,160) 10% , rgb(144,144,144));   
 }
@@ -149,8 +161,7 @@ nav>ul>li>a:hover , nav>ul>li>div>a:hover{
     background-image: url("images/menu_sep.png");
     width: 4px;
     height: 21px;
-    margin: 0 16px;
-    bottom: 0;
+    margin: 0 8px;
     display: inline-block;
 }
 
@@ -233,8 +244,8 @@ p{
 
 .divMoreDetails{
     position: absolute;
-    bottom: 3px;
-    left: 10px;
+    bottom: 25px;
+    left: 25px;
     font-size: 13px;
 }
 
