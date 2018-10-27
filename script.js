@@ -23,3 +23,11 @@ function ChangeImageSrc(){
         document.getElementById("imgChange").src = "images/"+ imgSrc1
     }
 }
+
+// function loadContactPage()
+// {
+//     // document.getElementById("mainDiv").innerHTML= "ContactUs.html";
+//     document.getElementById("mainDiv").innerHTML= '<object type="type/html" data="ContactUs.html" ></object>';
+
+
+// }

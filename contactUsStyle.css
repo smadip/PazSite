@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
+}
+h1{
+    color: #72716d;
+    font-size: 14px;
+    width: 100%;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #72716d;
+}
+
+h2{
+    color: #005ca0;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+h3{
+    color: #005ca0;
+    font-size: 15px;
+    font-weight: bold; 
+    padding-right: 10px;
+}
+
+p{
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height:1.2;
+}
+
+.divCube >.pCube{
+    font-weight:100;
+    margin-right: 7px;
+}
+
+h4{
+    color: #72716d;
+    font-size: 12px;
+    line-height:1;
+}
+
+h5{
+    color: #72716d;
+    font-size: 12px;
+    line-height:1;
+    padding-right: 10px;
+}
+
+
+.contactDetails{
+    padding-right: 20px;
+    border-color:#CCCCCC;
+    border-style: solid solid none solid;
+    border-width: 1px;
+    width: 440px;
+    /* background: linear-gradient(top,  #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%); */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+    border-top-right-radius:10%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.floatElement{float: right;
+    width: 30%;
+    margin-top: 5px;
+    color: #6d6d6d;
+    font-size: 12px;
+    /* padding: 0; */
+    margin-right: 0;
+    }
+
+.floatInput{float: right;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #6d6d6d;
+    font-size: 12px;
+    /* padding: 0; */
+    margin-right: 0;
+}
+
+textarea{
+    margin-top: 5px;
+    width: 80%;
+}
+    
+.sendBtn{
+    margin-right: 195px;
+    background: rgb(94, 158, 207);
+    border-top-right-radius:20%;
+}
+
+.sendBtn:hover{
+    background-color: rgb(247,176,17);
+}
+
+.divCube
+{
+    background-image: url("images/small_cube_bg.png");
+    width: 292px;
+    height: 170px;
+    float: right;
+    margin-top: 21px;
+    margin-left:8px; 
+    margin-right: 0;
+    position: relative; 
+}
+
+.rightDiv{
+    float: right;
+    width: 20%;
+}
+
+.leftDiv{
+    float: right;
+    width: 30%;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.middleDiv{
+    float: right;
+    width: 30%;
+}
+
+.aClickHear{
+color:rgb(0, 0, 238);
+font-size: 13px;
+text-decoration: none;
+}
+
