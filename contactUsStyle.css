@@ -95,7 +95,7 @@ textarea{
 }
     
 .sendBtn{
-    margin-right: 195px;
+    margin-right: 295px;
     background: rgb(94, 158, 207);
     border-top-right-radius:20%;
 }
@@ -118,24 +118,56 @@ textarea{
 
 .rightDiv{
     float: right;
-    width: 20%;
+    width: 10%;
+    border-top: 1px solid #dedede;
+    height: 36px;
+    width: 122px;
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+    margin-left: 20px;  
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+    margin-top: 25px;
+
 }
 
 .leftDiv{
     float: right;
-    width: 30%;
-    margin-right: 100px;
-    margin-top: 5px;
+    width: 20%;
+    margin-right: 200px;
+    margin-top: 40px;
 }
 
 .middleDiv{
     float: right;
-    width: 30%;
+    width: 35%;
+    margin-top: 25px;
 }
 
 .aClickHear{
 color:rgb(0, 0, 238);
 font-size: 13px;
 text-decoration: none;
+}
+
+.aPath, span{
+    color:rgb(92, 92, 92);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.aPath:hover, .rightDiv:hover{
+    color:#005CA0;
+    text-decoration: underline;
+
+}
+
+.validatorField{
+    color: red;
+    font-size: 12px;
+    display: block;
+    width: 50%;
+    visibility: hidden;
+
+
 }
 

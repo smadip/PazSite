@@ -24,10 +24,14 @@ function ChangeImageSrc(){
     }
 }
 
-// function loadContactPage()
-// {
-//     // document.getElementById("mainDiv").innerHTML= "ContactUs.html";
-//     document.getElementById("mainDiv").innerHTML= '<object type="type/html" data="ContactUs.html" ></object>';
+function validateFields(){
+var firstName = document.getElementById("firstName").value;
+var lastName = document.getElementById("lastName").value;
+var phoneName = document.getElementById("phoneNum").value;
+var emailName = document.getElementById("email").value;
 
-
-// }
+if(firstName == "")
+{
+    document.getElementById("fnValid").style.visibility= visible;
+}
+}

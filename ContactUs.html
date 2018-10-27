@@ -9,56 +9,204 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contactUsStyle.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <div class="clearfix">
-        <div class="rightDiv"> צור קשר</div>
-        <div class="middleDiv">
-            <h1>צור קשר</h1>
-            <div class="contactDetails">
-                <p>
-                    <h2>צור קשר</h2>
-                    <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
-                    </p>
-                    <h4>
-                        * השדות המסומנים בכוכבית (*) הינם שדות חובה
-                    </h4>
-                </p>
-                <div class="fields clearfix">
-                    <label class="floatElement" for="firstName">* שם פרטי:</label>
-                    <input class="floatInput" type="text" id="firstName" name="firstName">
-                    <label class="floatElement" for="lastName">* דדד</label>
-                    <input class="floatInput" type="text" id="lastName" name="lastName">
-                    <label class="floatElement" for="phoneNum"></label>
-                    <input class="floatInput" type="number" id="phoneNum" name="phoneNum">
-                    <label class="floatElement" for="email"></label>
-                    <input class="floatInput" type="email" id="email" name="email">
-                    <textarea name="details" id="details" cols="30" rows="10" placeholder="תוכן הפנייה"></textarea>
+        <div class="containerHeader">
+        
+                <div class="container">
+                    <div class="header">
+                        <!-- <img  class="logo" href="../images/paz_logo.png"> -->
+                        <img class="pazLogo" src="images/paz_logo.png" alt="">
+                        <nav>
+                            <div class="divInput clearfix">
+                                    <a  class= "aEng"href="#">English</a>
+                                    <input type="text" class="input" name="searchInput" placeholder="רשום מילת חיפוש">
+                                    <button class="searchBtn"></button>
+                                </div>
+                            <ul>
+                                <a href="">
+                                    <img class="homeIcon" src="images/homeBlue.png" alt="">
+                                </a>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a class="menuTitle" href="#">אודות</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">אודות</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">היסטוריה</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">חזון וערכים</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">מבנה הקבוצה</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">חברי דירקטוריון</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">הנהלת הקבוצה</a>
+                                        <!-- <img class="dropdownSep" src="images/menu_dropdown_sep.png" alt=""> -->
+                                        <a class="aa" href="#">פרסים והוקרה</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a  class="menuTitle" href="#">חטיבות</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">חטיבות</a>
+                                        <a class="aa" href="#">קימעונאות ומסחר</a>
+                                        <a class="aa" href="#">תעשיות ושירותים</a>
+                                        <a class="aa" href="#">זיקוק</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a class="menuTitle" href="#">אחריות תאגידית</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">אחריות תאגידית</a>
+                                        <a class="aa" href="#">הקוד האתי</a>
+                                        <a class="aa" href="#">מעורבות חברתית</a>
+                                        <a class="aa" href="#">נגישות</a>
+                                        <a class="aa" href="#">איכות הסביבה ובטיחות</a>
+                                        <a class="aa" href="#">דירוג מעלה</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a class="menuTitle" href="#">קשרי משקיעים</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">פרופיל חברה</a>
+                                        <a class="aa" href="#">דו"חות משקיעים</a>
+                                        <a class="aa" href="#">כלי למשקיע</a>
+                                        <a class="aa" href="#">נתוני מניה</a>
+                                        <a class="aa" href="#">אסיפות כלליות</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">                            
+                                    <a class="menuTitle" href="#">התחנות שלנו</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">התחנות שלנו</a>
+                                        <a class="aa" href="#">נגישות מתחמי פז</a>
+                                        <a class="aa" href="#">רשימת תחנות</a>
+                                        <a class="aa" href="#">מועדונים</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a class="menuTitle" href="#">קריירה</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">לעבוד בפז</a>
+                                        <a class="aa" href="#">ניהול תחנת פז</a>
+                                        <a class="aa" href="#">קריירה</a>
+                                    </div>
+                                </li>
+                                <li class="menuSep"></li>
+                                <li class="liMenu">
+                                    <a class="menuTitle" href="#">חדשות ומדיה</a>
+                                    <div class="subMenu">
+                                        <a class="aa" href="#">פירסומות</a>
+                                        <a class="aa" href="#">הודעות לעיתונות</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="mainDiv" id="mainDiv">
+                        <div class="clearfix">
+                                <div class="rightDiv"> 
+                                    צור קשר
+                                </div>
+                                <div class="middleDiv">
+                                    <span>
+                                    <a class="aPath" href="#">עמוד הבית></a>צור קשר
+                                </span>
+                                    <h1>צור קשר</h1>
+                                    <div class="contactDetails">
+                                        <p>
+                                            <h2>צור קשר</h2>
+                                            <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+                                            </p>
+                                            <h4>
+                                                * השדות המסומנים בכוכבית (*) הינם שדות חובה
+                                            </h4>
+                                        </p>
+                                        <div class="fields clearfix">
+                                            <label class="floatElement" for="firstName">* שם פרטי:</label>
+                                            <input class="floatInput" type="text" id="firstName" name="firstName">
+                                            <span class="validatorField" id="fnValid">שדה חובה</span>
+                                            <label class="floatElement" for="lastName">* שם משפחה</label>
+                                            <input class="floatInput" type="text" id="lastName" name="lastName">
+                                            <span class="validatorField" id="lnValid" >שדה חובה</span>
+                                            <label class="floatElement" for="phoneNum">* טלפון</label>
+                                            <input class="floatInput" type="number" id="phoneNum" name="phoneNum">
+                                            <span class="validatorField" id="pValid">שדה חובה</span>
+                                            <label class="floatElement" for="email">* E-mail</label>
+                                            <input class="floatInput" type="email" id="email" name="email">
+                                            <span class="validatorField" id="emailValid">שדה חובה</span>
+                                            <textarea name="details" id="details" cols="30" rows="10" placeholder="תוכן הפנייה"></textarea>
+                        
+                                        </div>
+                                        <button class="sendBtn" onclick="validateFields()">שלח</button>
+                                    </div>
+                                </div>
+                                <div class="leftDiv">
+                                    <div class="divCube">
+                                        <h3>פרטי יצירת קשר</h3>
+                                        <h5>פז חברת נפט בע"מ</h5>
+                                            <p class="pCube">יורו פארק, בניין הולנד<br>
+                                                קיבוץ יקום 60972<br>
+                                                טל. שירות לקוחות 1-800-774-774 <br>
+                                                פקס.09-8641714<br>
+                                            </p>
+                                    </div>
+                                    <div class="divCube">
+                                        <h3>עוד בפז</h3>
+                                        <h5>ליצירת קשר עם דוברות פז</h5>
+                                        <a class="aClickHear" href="#">לחצו כאן>></a>
+                                        <h5>רוצים לעבוד בפז?</h5>
+                                        <a class="aClickHear" href="#">לחצו כאן>></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                 </div>
-                <button class="sendBtn">שלח</button>
             </div>
-        </div>
-        <div class="leftDiv">
-            <div class="divCube">
-                <h3>פרטי יצירת קשר</h3>
-                <h5>פז חברת נפט בע"מ</h5>
-                    <p class="pCube">יורו פארק, בניין הולנד<br>
-                        קיבוץ יקום 60972<br>
-                        טל. שירות לקוחות 1-800-774-774 <br>
-                        פקס.09-8641714<br>
-                    </p>
+            <footer>
+                <div class="divFooter">
+                <div class="divFb">
+                <a href="#">
+                    <img class="imgFb" src="images/fb_icon.png" alt="facebook icon">
+                </a>
             </div>
-            <div class="divCube">
-                <h3>עוד בפז</h3>
-                <h5>ליצירת קשר עם דוברות פז</h5>
-                <a class="aClickHear" href="#">לחצו כאן>></a>
-                <h5>רוצים לעבוד בפז?</h5>
-                <a class="aClickHear" href="#">לחצו כאן>></a>
+            <div class="divLink">
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">עמוד הבית</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">מחירונים</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">קריירה</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">תנאי שימוש</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">נגישות</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">מפת האתר</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink" onclick="loadContactPage()">צור קשר</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLink">שטחי מסחר</a>
+                <!-- <img class="footerSep" src="images/menu_sep.png" alt=""> -->
+                <a href="#" class="footerLinkRed">הסדר פשרה בתובענה הייצוגית בעיניין הסדר פזומט</a>
             </div>
-        </div>
-    </div>
+            </div>
+            </footer>
+        
+    
 </body>
 
 </html>
